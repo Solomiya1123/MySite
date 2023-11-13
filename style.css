@@ -1,0 +1,118 @@
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: #800080;
+}
+a:hover{
+    color: #682789;
+}
+.logo{
+    height: 300px;
+    width: 400px;
+}
+.inhead{
+    font-size: 20px;
+    margin-left: 60px;
+    color: #800080;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+}
+header{
+    background-color: #FFE4E1;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    margin: 0;
+}
+.first{
+    background-image: url(./images/skatertunu.jpg);
+}
+.second{
+    background-image: url(./images/ryshnuku.png);
+}
+.third{
+    background-image: url(./images/postil.jpg);
+}
+.fourth{
+    background-image: url(images/kovdru.jpg);
+}
+.fifth{
+    background-image: url(images/podyshka.jpg);
+}
+.sixth{
+    background-image: url(images/namatrasnuk.png);
+}
+.text{
+    display: flex;
+    background-color: #FFE4E1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #800080;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.parent-container{
+    display: flex;
+    column-gap: 175px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.content{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 250px;
+    width: 250px;
+    margin-top: 50px;
+    padding-top: 150px;
+}
+.contacts{
+    color: #800080;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+hr{
+    width: 25%;
+    height: 2px;
+    background-color: #800080;
+}
+.bayka{
+    background-image: url(images/bayka_1.jpg);
+}
+.satun{
+    background-image: url(images/satun.png);
+}
+.strayp{
+    background-image: url(images/strayp.png);
+}
+.ranfors{
+    background-image: url(images/ranfors.png);
+}
+.byaz{
+    background-image: url(images/byaz.png);
+}
+.postil{
+    column-gap: 20px; 
+}
+.odnotonni{
+    background-image: url(images/skatertuna_1.png);
+}
+.novorichni{
+    background-image: url(images/novorichni.jpg);
+}
+footer{
+    background-color: #FFE4E1;
+    padding: 25px;
+    margin-top: 20px;
+}
+.infoot{
+    margin-right: 20px;
+}
+.foothr{
+    width: 85%;
+}
